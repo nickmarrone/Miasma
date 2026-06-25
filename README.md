@@ -1,4 +1,4 @@
-# Miasma_1.03_Revised
+# Miasma 1.04 Revised
 
 ***Note: use the BOM included in this repository.*** Some of the components have been relabelled in this revision so the BOM on SinPhi's website is no longer current.
 
@@ -15,6 +15,10 @@ The changes from version 1.03 are:
 5) Small tweaks such as adjusting track spacing, etc.
 
 To do: the resistor in the feedback loop of the 4QX output amp (R67) should be shorted (solder bridge), not 220k. The purpose is to make this output stage a unity gain buffer instead of an amplifier; the 220k will cause the output to clip before the signal peak is reached. If you aren't using the 4QX feature then this is irrelevant.
+
+# 1.04 Revision
+
+Improve silkscreen placement of component labels for legibility. Upgrade kicad project files to v10.
 
 # Acknowledgements
 

@@ -1,0 +1,10 @@
+# Ignore all directories ending in -backups and their contents
+**/*-backups/
+**/backups/
+
+
+.DS_Store
+*.lck
+**/#auto_saved_files#
+**/.history/
+
